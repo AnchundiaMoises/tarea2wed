@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    
+background-size: cover;
+background-attachment: fixed;
+font-family: 'Roboto', sans-serif;
+
+}
+.formulario-cuerpo{
+    background: rgba(80, 83, 129, 0.7);
+    width: 100%;
+    max-width: 500px;
+    margin: 40px auto;
+    color: #fff;
+    border-radius: 5px;
+    padding: 48px;
+    margin-top: 100px;
+
+
+}
+.formulario-cuerpo .formulario-titulo {
+
+margin-bottom: 20px;
+font-size: 22px;
+text-align:center;
+
+}
+.formulario span
+{
+    margin-bottom: 20px;
+font-size: 19px;
+    letter-spacing: 1px;
+
+}
+.menu-sexo,
+.formulario  input[type="text"],
+.formulario  input[type="tel"],
+.formulario  input[type="number"],
+.formulario  input[type="date"],
+.formulario  input[type="email"],
+.formulario  input[type="text"]
+{
+    background: rgba(0,0,0,.5);
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 0 0 20px 0;
+    border-bottom: 4px solid hsl(239, 84%, 50%);
+    outline: none;
+    font-size: 14px;
+    font-weight: normal;
+    color: aliceblue;
+    transition: all .5s ease;
+}
+.menu-sexo :focus,
+.formulario  input[type="text"]:focus,
+.formulario  input[type="tel"]:focus,
+.formulario  input[type="number"]:focus,
+.formulario  input[type="date"],
+.formulario  input[type="email"]:focus,
+.formulario  input[type="text"]:focus
+{
+border-bottom: 4px solid #1100ff;
+
+}
+.formulario  button[type="submit"]
+{
+    background: rgb(162, 76, 196);
+    color:#fff ;
+    border:none ;
+    width: 100%; 
+    padding: 1rem 0;
+    font-weight: normal;
+    font-family:  'Roboto', sans-serif;
+    letter-spacing: 1px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all .5s ease;
+
+}
+.formulario  button[type="submit"]:hover
+{
+    background: rgba(0,117,217,.6);
+}

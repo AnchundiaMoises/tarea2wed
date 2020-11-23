@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main class="formulario-cuerpo">
+            <div><span class="formulario-titulo">Ingresa tus datos</span></div>
+            <br>
+            <div class="formulario">
+                <form  action="" id="form" class="c3">
+            <label for="apellido">
+                <span>Apellidos </span>
+                <input type="text" id="apellido" name="apellido" placeholder="apellido" autocomplete="name" required>
+            </label>
+            <br>
+            <label for="nombre">
+                <span>Nombre</span>
+                <input type="text" id="nombre" placeholder="nombre" />
+            </label>
+            <br>
+            <label for="cedula">
+                <span>Cedula de ciudadania</span>
+                <input type="tel" id="cedula" placeholder="Cedula" name="cl_cedula" required />
+            </label>
+            <br>
+            <label for="conadis">
+                <span>Conadis</span>
+                <input type="tel" id="conadis" placeholder="conadis" name="cl_conadis"  />
+            </label>
+            <br>
+            <label for="edad">
+                <span>Edad</span>
+                <input type="number" autocomplete="bday-year" id="Cedula" placeholder="edad" name="cl_edad" required />
+            </label>
+            <br>
+            <label for="fecha">
+                <span>Fecha de nacimiento</span>
+                <input type="date" id="fecha" name="fecha" required>
+            </label>
+            <br>
+            <label for="correo">
+                <span>Correo</span>
+                <input type="email" placeholder="alguien@gmail.com" id="correo" name="cl_correo" />
+            </label>
+            <br>
+            <label for="telefono">
+                <span>Telefono</span>
+                <input type="tel" id="telefono" placeholder="+0934567892" name="cl_telefono" autocomplete="tel"
+                    required>
+            </label>
+            <br>
+            <label for="direccion">
+                <span>Direccion</span>
+                <input type="text" id="direccion" name="direccion" placeholder="Direccion">
+            </label>
+            <br>
+            <label for="ciudad">
+                <span>Ciudad</span>
+                <input type="text" id="ciudad" name="ciudad" placeholder="ciudad" required>                             
+            </label>
+            <br>
+            <label for="sexo">
+                <span>Sexo</span>
+                <select class="menu-sexo" id="sexo"  autocomplete="country-name">
+                    <option value="">---</option>
+                    <option value="HOMBRE">HOMBRE</option>
+                    <option value="MUJER">MUJER</option>
+                    <option value="SIN ESPECIFICAR">SIN ESPECIFICAR</option>
+                </select>
+            </label>
+            <button type="submit">Enviar formulario</button>
+                </form>
+            </div>
+        
+    </main>
+</body>
+
+</html>
